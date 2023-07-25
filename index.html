@@ -5,10 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Website</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c626213fd4.js" crossorigin="anonymous"></script>
+    <!-- google font bebas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .max-w-7xl {
+            border: 2px solid red;
+        }
+    </style>
 </head>
 
 <body>
+    <header class="bg-amber-100 px-2 lg:px-24 lg:py-20">
+        <nav>
 
+        </nav>
+        <!-- banner section -->
+        <div class="flex flex-col md:flex-row md:gap-40 items-center">
+            <div class="space-y-3">
+                <h1 class="text-7xl uppercase">
+                    <span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                    of Winter
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button
+                    class="py-4 px-8 rounded-xl text-white uppercase font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                    <i class="fa-solid fa-cart-shopping"></i> Buy
+                    Now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="" srcset="">
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto">
+        <section class="py-12">
+            <h3 class="text-5xl font-bebas">Woman Jacket</h3>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
